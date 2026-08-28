@@ -1,0 +1,60 @@
+# MASTER AI PROMPT BLUEPRINT - INFRALOGAPM (DATADOG.COM CLONE)
+# Location: d:\Batch new\1 -15 websites\infralogapm\MASTER_AI_PROMPT_WEBSITE_BUILDER.txt
+
+================================================================================
+CRITICAL DIRECTIVE - BRANDING & CONTACT INFRASTRUCTURE RULE:
+EVERY TIME IN ALL NEW WEBSITES (INFRALOGAPM AND FUTURE CLONES), THE NEW WEBSITE'S 
+EXACT NAME, EMAIL (support@infralogapm.com, sales@infralogapm.com), DOMAIN (infralogapm.com),
+ADDRESS (620 8th Ave, New York, NY 10018), AND PHONE (+1 (800) 883-9201) MUST BE USED 
+EVERYWHERE IN ALL HEADERS, FOOTERS, SUB-PAGES, MODALS, AND BACKEND MESSAGES. 
+NEVER USE THE PARENT CLONE WEBSITE'S (DATADOG'S) CONTACT INFO OR EMAILS ANYWHERE!
+================================================================================
+
+PROJECT CONFIGURATION BLUEPRINT:
+1. Target Website to Clone: Datadog.com
+2. New Website Name: InfraLogAPM (infralogapm)
+3. Domain Name: infralogapm.com
+4. Support Email: support@infralogapm.com
+5. Sales Email: sales@infralogapm.com
+6. Contact Phone: +1 (800) 883-9201
+7. Physical Address: 620 8th Ave, Floor 42, New York, NY 10018, USA
+8. Passcode Security Requirement: X-Admin-Passcode: aliabbas1234578! (System Admin Dashboard must be passcode protected).
+9. Pricing Tiers:
+   - Starter Plan: $100 / month
+   - Pro Growth Plan: $200 / month
+   - Ultimate Enterprise: $300 / month
+
+FRONTEND ARCHITECTURE:
+- Shared Navigation Component: Header.jsx (Stickied, z-index: 10000, non-overlapping, mobile/Android/iOS drawer).
+- Shared Footer Component: Footer.jsx (InfraLogAPM contact info, newsletter sub, 600+ integrations links).
+- 24 Sub-Pages Connected via React SPA Router:
+  1. HomePage.jsx (http://localhost:3000/)
+  2. InfrastructurePage.jsx (/infrastructure)
+  3. ApmPage.jsx (/apm)
+  4. LogManagementPage.jsx (/log-management)
+  5. SecurityPage.jsx (/security)
+  6. SyntheticMonitoringPage.jsx (/synthetic-monitoring)
+  7. RealUserMonitoringPage.jsx (/real-user-monitoring)
+  8. DatabasePage.jsx (/database)
+  9. NetworkPage.jsx (/network)
+  10. ServerlessPage.jsx (/serverless)
+  11. AiCopilotPage.jsx (/ai-copilot)
+  12. IntegrationsPage.jsx (/integrations)
+  13. PricingPage.jsx (/pricing)
+  14. SolutionsPage.jsx (/solutions)
+  15. CustomersPage.jsx (/customers)
+  16. DocsPage.jsx (/docs)
+  17. BlogPage.jsx (/blog)
+  18. EventsWebinarsPage.jsx (/events-webinars)
+  19. AboutUsPage.jsx (/about-us)
+  20. ContactUsPage.jsx (/contact-us)
+  21. PrivacyPage.jsx (/privacy)
+  22. TermsPage.jsx (/terms)
+  23. AdminDashboardPage.jsx (/admin-dashboard)
+  24. LiveDemoPage.jsx (/live-demo)
+
+BACKEND ARCHITECTURE:
+- Django REST API running on http://localhost:8000
+- PyMongo Fail-Soft Async Driver syncing data to MongoDB Atlas
+- Admin analytics guarded by X-Admin-Passcode: aliabbas1234578!
+- Models: UserAccount, SubscriptionOrder, TelemetryMetric, LogEntry, ApmTrace, Inquiry, NewsletterSubscriber, SubscriptionPlan.

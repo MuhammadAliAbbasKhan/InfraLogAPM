@@ -1,0 +1,1 @@
+web: gunicorn infralogapm_backend.wsgi --log-file -

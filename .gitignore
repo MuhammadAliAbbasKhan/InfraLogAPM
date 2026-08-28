@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Production build outputs
+dist/
+build/
+frontend/dist/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/env/
+backend/venv/
+env/
+venv/
+ENV/
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
