@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Activity, Send, CheckCircle2, ShieldCheck, 
-  Github, Linkedin, Twitter, Youtube, Mail, Phone, MapPin
+  Mail, Phone, MapPin
 } from 'lucide-react';
 import axios from 'axios';
 
@@ -38,7 +38,7 @@ const Footer = () => {
               <span>Subscribe to InfraLogAPM Telemetry Digest</span>
             </h3>
             <p className="text-sm text-slate-300">
-              Get weekly cloud architecture deep-dives, Kubernetes benchmarks, and zero-day threat telemetry reports from <span className="text-indigo-400 font-semibold">support@infralogapm.com</span>.
+              Get weekly cloud architecture deep-dives, Kubernetes benchmarks, and zero-day threat telemetry reports from InfraLogAPM.
             </p>
           </div>
 
@@ -73,15 +73,11 @@ const Footer = () => {
         <div className="mb-12 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-300 bg-[#0F0B21] p-4 rounded-xl border border-slate-800">
           <div className="flex items-center space-x-2">
             <Mail className="w-4 h-4 text-indigo-400 shrink-0" />
-            <span>Support Email: <a href="mailto:support@infralogapm.com" className="text-white hover:underline font-semibold">support@infralogapm.com</a></span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <Mail className="w-4 h-4 text-purple-400 shrink-0" />
-            <span>Sales Email: <a href="mailto:sales@infralogapm.com" className="text-white hover:underline font-semibold">sales@infralogapm.com</a></span>
+            <span>Email: <span className="text-white font-semibold">Email coming soon</span></span>
           </div>
           <div className="flex items-center space-x-2">
             <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-            <span>Global Sales Line: <span className="text-white font-semibold">+1 (800) 883-9201</span></span>
+            <span>Phone: <span className="text-white font-semibold">Phone coming soon</span></span>
           </div>
         </div>
 
@@ -155,23 +151,10 @@ const Footer = () => {
             <div className="w-7 h-7 rounded-lg bg-indigo-600 flex items-center justify-center text-white shrink-0">
               <Activity className="w-4 h-4" />
             </div>
-            <span>© 2026 InfraLogAPM Inc. All rights reserved. (infralogapm.com)</span>
+            <span>© 2026 InfraLogAPM. All rights reserved.</span>
           </div>
 
-          <div className="flex space-x-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-slate-900 hover:text-white transition">
-              <Github className="w-4 h-4" />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-slate-900 hover:text-white transition">
-              <Linkedin className="w-4 h-4" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-slate-900 hover:text-white transition">
-              <Twitter className="w-4 h-4" />
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noreferrer" className="p-2 rounded-lg bg-slate-900 hover:text-white transition">
-              <Youtube className="w-4 h-4" />
-            </a>
-          </div>
+          {/* TODO: add verified social links */}
         </div>
 
       </div>

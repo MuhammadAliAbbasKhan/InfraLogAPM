@@ -58,7 +58,7 @@ export default function Header() {
           </Link>
           <span>|</span>
           <Link to="/contact-us" style={{ color: "#ffffff", textDecoration: "none" }}>
-            sales@infralogapm.com
+            Contact Us
           </Link>
         </div>
       </div>
@@ -342,7 +342,7 @@ export default function Header() {
                 <Link to="/pricing" style={mobileNavLinkStyle}>Pricing Tiers ($100, $200, $300)</Link>
                 <Link to="/docs" style={mobileNavLinkStyle}>API Docs</Link>
                 <Link to="/blog" style={mobileNavLinkStyle}>Tech Blog</Link>
-                <Link to="/contact-us" style={mobileNavLinkStyle}>Contact: sales@infralogapm.com</Link>
+                <Link to="/contact-us" style={mobileNavLinkStyle}>Contact Us</Link>
               </div>
             </div>
 
